@@ -1,15 +1,17 @@
 name: learn_rohd
-description: A sample command-line application.
+description: Learning ROHD
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/ethanuppal/learn_rohd
 
 environment:
   sdk: ^3.8.0
 
-# Add regular dependencies here.
 dependencies:
   rohd: ^0.6.3
-  # path: ^1.8.0
+  rohd_hcl: ^0.1.0
+
+dependency_overrides:
+  rohd: ^0.6.3
 
 dev_dependencies:
   lints: ^5.0.0
